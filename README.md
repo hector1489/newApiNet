@@ -1,6 +1,6 @@
-# Mi API de Pronóstico del Tiempo
+# New Api .Net Core
 
-Api para la nueva ersion en .Net core
+Api para la nueva version en .Net core
 
 ## Cómo ejecutar la API
 
