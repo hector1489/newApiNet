@@ -50,6 +50,10 @@
               "target": "Package",
               "version": "[8.0.6, )"
             },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[14.0.7, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
