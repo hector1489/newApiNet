@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/hector/Documentos/cursos/microsoft/MiApi/MiApi/MiApi.csproj": {}
+    "/home/hector/Documentos/material de estudio/cursos/microsoft/MiApi/MiApi/MiApi.csproj": {}
   },
   "projects": {
-    "/home/hector/Documentos/cursos/microsoft/MiApi/MiApi/MiApi.csproj": {
+    "/home/hector/Documentos/material de estudio/cursos/microsoft/MiApi/MiApi/MiApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hector/Documentos/cursos/microsoft/MiApi/MiApi/MiApi.csproj",
+        "projectUniqueName": "/home/hector/Documentos/material de estudio/cursos/microsoft/MiApi/MiApi/MiApi.csproj",
         "projectName": "MiApi",
-        "projectPath": "/home/hector/Documentos/cursos/microsoft/MiApi/MiApi/MiApi.csproj",
+        "projectPath": "/home/hector/Documentos/material de estudio/cursos/microsoft/MiApi/MiApi/MiApi.csproj",
         "packagesPath": "/home/hector/.nuget/packages/",
-        "outputPath": "/home/hector/Documentos/cursos/microsoft/MiApi/MiApi/obj/",
+        "outputPath": "/home/hector/Documentos/material de estudio/cursos/microsoft/MiApi/MiApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hector/.nuget/NuGet/NuGet.Config"
@@ -38,9 +38,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -66,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
